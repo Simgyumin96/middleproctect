@@ -1,0 +1,98 @@
+@-webkit-keyframes gyumin {
+	0%{
+		margin-left: 0;
+		
+	}
+
+	50%{
+		margin-left: 10%;
+		
+	}
+
+	100%{
+		margin-left: 0;
+	}
+}
+
+@-webkit-keyframes gyumint {
+	0%{
+		margin-right: 0;
+		
+	}
+
+	50%{
+		margin-right: 10%;
+		
+	}
+
+	100%{
+		margin-right: 0;
+	}
+}
+
+@-webkit-keyframes star {
+	0%{
+		transform:rotate(0deg);
+	}
+
+
+	100%{
+		transform:rotate(360deg);
+	}
+}
+
+@-webkit-keyframes startwo {
+	0%{
+		transform: scale(1,1);
+	}
+
+
+	50%{
+		transform: scale(1.5,1.5);
+	}
+
+	100%{
+		transform: scale(1,1);
+	}
+}
+
+
+.box {
+	animation-name: gyumin;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+	transition-duration: 2s
+}
+
+.box2 {
+	animation-name: gyumint;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+	transition-duration: 2s
+}
+
+.box3 {
+	animation-name: star;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+	transition-duration: 2s
+}
+
+.box4 {
+	animation-name: startwo;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+	transition-duration: 2s
+}
+
+.box:hover {
+	animation-play-state: paused;
+	transition-property: background-color;
+	transition-duration: 0s
+}
+
+.box2:hover {
+	animation-play-state: paused;
+	transition-property: background-color;
+	transition-duration: 0s
+}
